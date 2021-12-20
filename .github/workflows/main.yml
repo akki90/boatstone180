@@ -1,0 +1,19 @@
+name: DevSecOps Workflow
+
+on: [push]
+
+Jobs: 
+
+  Build:
+  runs-on: ubuntu-latest
+  steps:
+    run: |
+    echo "Hello World"
+    echo "This is gonna be fun"
+  
+  Test:
+  runs-on: ubuntu-latest
+  steps:
+    run: | 
+    echo "Hello India"
+    echo "I love my India"
