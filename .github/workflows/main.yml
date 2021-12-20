@@ -8,12 +8,12 @@ Jobs:
   runs-on: ubuntu-latest
   steps:
     run: |
-    echo "Hello World"
-    echo "This is gonna be fun"
+      echo "Hello World"
+      echo "This is gonna be fun"
   
   Test:
   runs-on: ubuntu-latest
   steps:
     run: | 
-    echo "Hello India"
-    echo "I love my India"
+      echo "Hello India"
+      echo "I love my India"
